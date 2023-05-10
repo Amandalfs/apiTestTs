@@ -11,4 +11,4 @@ app.use(routers);
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
-app.listen(3344, ()=> console.log("Run Server.."));
+app.listen(3333, ()=> console.log("Run Server.."));
